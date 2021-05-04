@@ -6,13 +6,23 @@ As I progressed through this tutorial, I updated each chapter results when succe
 
 ## Installation
 
-    $ git clone https://github.com/kgish/agile-web-development-with-rails-6.git depot-app
-    $ cd depot-app
+    $ git clone https://github.com/kgish/agile-web-development-with-rails-6.git
+    $ cd agile-web-development-with-rails-6
     $ bundle install
-    $ rake db:migrate
-    $ rails s
+    $ bin/rails db:migrate
 
 In order to populate the `products` table with test data, run the following command:
 
-    $ rake db:seed
+    $ bin/rails db:seed
     
+## Run
+
+Run the application by executing the following command:
+
+    $ bin/rails s
+
+Then point your favorite browser to the following url:
+
+    http://localhost:3000
+
+Enjoy!
